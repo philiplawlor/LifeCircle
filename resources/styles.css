@@ -1,0 +1,121 @@
+.backgroundArcsmall {
+  x:50%-90;
+  y:60;
+}
+
+#smallArc {
+  x: 50%-90;
+  y: 60;
+  width: 180;
+  height: 180;
+  fill: fb-red;
+  arc-width: 5;
+  sweep-angle: 0;
+}
+
+.backgroundArcmedium {
+  x:50%-115;
+  y:35;
+}
+
+#mediumArc {
+  x: 50%-115;
+  y: 35;
+  width: 230;
+  height: 230;
+  fill: fb-white;
+  arc-width: 5;
+  sweep-angle: 0;
+}
+
+.backgroundArclarge {
+  x:50%-140;
+  y:10;
+}
+
+#largeArc {
+  x: 50%-140;
+  y: 10;
+  width: 280;
+  height: 280;
+  fill: fb-light-gray;
+  arc-width: 5;
+  sweep-angle: 0;
+}
+
+.backgroundArcComplete{
+  x:50%-150;
+  y:0;
+}
+
+#completeArc {
+  x: 50%-150;
+  y: 10;
+  width: 300;
+  height: 300;
+  fill: fb-light-gray;
+  arc-width: 0;
+  sweep-angle: 0;
+}
+
+.background {
+  viewport-fill: fb-black;
+}
+
+.backgroundArc {
+  fill: fb-extra-dark-gray;
+  arc-width: 2;
+}
+
+.text {
+  font-family: SevilleSharp-Book;
+  fill: fb-white;
+}
+
+.mainText {
+  x: 50%;
+  y: 50%;
+  font-size: 60;
+  text-length: 20;
+  text-anchor: middle;
+}
+
+.subText {
+  x: 50%;
+  y: 50%+48;
+  font-size: 32;
+  text-length: 20;
+  text-anchor: middle;
+}
+
+#weatherSum {
+  x: 50%;
+  y: 50%+70;
+  font-size: 30;
+  text-length: 60;
+  text-anchor: middle;
+  fill: white;
+  font-family: SevilleSharp-Book;
+}
+
+
+#temperature {
+  x: 50%;
+  y: 50%+20;
+  font-size: 60;
+  text-length: 5;
+  text-anchor: middle;
+  fill: white;
+  font-family: SevilleSharp-Book;
+}
+
+#location {
+  x: 50%;
+  y: 50%-50;
+  font-size: 30;
+  font-family: SevilleSharp-Book;
+  text-length: 32;
+  text-anchor: middle;
+  fill: white;
+}
+

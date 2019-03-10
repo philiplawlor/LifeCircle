@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "2836028a-928f-44f2-81cc-359512f5914e",
+    "appType": "clockface",
+    "appDisplayName": "LifeCircle",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile",
+      "access_location",
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "LifeCircle"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}

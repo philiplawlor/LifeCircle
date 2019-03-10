@@ -1,0 +1,87 @@
+<svg class="background" >
+  <arc class="backgroundArcsmall" width="250" height="250" />
+  <arc class="backgroundArcmedium" width="230" height="230" />
+  <arc class="backgroundArclarge" width="210" height="210" />
+  <arc class="backgroundArcComplete" width="300" height="300" />
+
+  <arc id="smallArc" />
+  <arc id="mediumArc" />
+  <arc id="largeArc" />
+  <arc id="completeArc" />
+
+  
+  <defs>
+    <symbol id="clockDef" class="text" >
+      <text id="digits" class="mainText" >00:00</text>
+      <text id="date" class="subText" />
+      <animate attributeName="opacity"
+                begin="enable"
+                from="0"
+                to="1"
+                dur="0.3"
+                final="keep"
+                easing="ease-out" />
+    </symbol>
+
+    <symbol id="stepsDef" class="text" >
+      <text id="stepCount" class="mainText" >0</text>
+      <text class="subText" >steps</text>
+      <animate attributeName="opacity"
+                begin="enable"
+                from="0"
+                to="1"
+                dur="0.12"
+                final="keep"
+                easing="ease-out" />
+    </symbol>
+
+    
+    <symbol id="weatherDef">
+<!--       <image id="weather-icon" href="icons/weather/sunny.png" width="40" height="40" /> -->
+      <text id="location" />
+      <text id="weatherSum" />
+      <text id="temperature" />
+      <animate attributeName="opacity"
+                begin="enable"
+                from="0"
+                to="1"
+                dur="0.12"
+                final="keep"
+                easing="ease-out" />
+    </symbol>
+    
+    
+    <symbol id="caloriesDef" class="text" >
+      <text id="calorieCount" class="mainText" >0</text>
+      <text class="subText" >calories</text>
+      <animate attributeName="opacity"
+                begin="enable"
+                from="0"
+                to="1"
+                dur="0.12"
+                final="keep"
+                easing="ease-out" />
+    </symbol>
+
+    <symbol id="heartRateDef" class="text" >
+      <text id="bpm" class="mainText" >--</text>
+      <text class="subText" >bpm</text>
+      <animate attributeName="opacity"
+                begin="enable"
+                from="0"
+                to="1"
+                dur="0.12"
+                final="keep"
+                easing="ease-out" />
+    </symbol>
+
+  </defs>
+
+  <use id="clock" href="#clockDef" display="inline" />
+  <use id="weather" href="#weatherDef" display="none" />
+  <use id="steps" href="#stepsDef" display="none" />
+  <use id="calories" href="#caloriesDef" display="none" />
+  <use id="heartRate" href="#heartRateDef" display="none" />
+
+  <use id="screenButton" href="#push-button" y="0" height="100%" opacity="0" />
+</svg>
